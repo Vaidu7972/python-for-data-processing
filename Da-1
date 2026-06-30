@@ -1,0 +1,20 @@
+import pandas as pd       #library data analysis and manipulation
+                          #install: pip install pandas
+
+data = {
+       "emp_id": [1, 2, 3, 4],
+       "Name" : ["Alice", "Bob", "Charlie", "David"],
+       "Salary" : [50000, 60000, 70000, 80000],
+}
+
+df = pd.DataFrame(data)   #A DataFrame is like an Excel sheet.
+print(df)
+
+df.columns                 # displays columns
+print(df.columns)
+
+df.index                   #range index start=0 stop =4
+print(df.index)
+
+df.shape
+print(df.shape)      #rows,column
