@@ -10,7 +10,7 @@ print(np.max(arr))
 print(np.std(arr))
 print(np.var(arr))
 
-
+#indexing
 print(arr[0])  # Accessing the first element
 print(arr[1:4])  # Accessing elements from index 1 to 3
 print(arr[2])
@@ -31,4 +31,6 @@ arr = np.array([10, 20, 30, 40, 50,60])
 print(arr[1:5])  # Accessing elements from index 1 to 3 with a step of 2
 print(arr[1:4])  # Accessing elements from index 1 to 3
 print(arr[::2])  # Accessing every second element
-print(arr[::-1])  # Reversing the array
+print(arr[::-1])  # Reversing the array 
+
+
