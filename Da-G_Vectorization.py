@@ -1,4 +1,4 @@
-#vectorization : entire array i want to add operation with using loops
+#vectorization : entire array i want to add operation without using loops
 # Is operated at once instead of operating each element one by one
 
 list1 = [1,2,3]
